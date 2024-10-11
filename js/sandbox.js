@@ -10,7 +10,7 @@
 // if (ninjas.length > 4) {
 // console.log("that's a lot of ninjas");
 // }
-const password = 'pass';
+const password = 'p@ss';
 if (password.length >= 8) {
     console.log ('that password is long enough!')
 }
