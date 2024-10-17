@@ -10,7 +10,22 @@
 // if (ninjas.length > 4) {
 // console.log("that's a lot of ninjas");
 // }
-const password = 'p@ss';
-if (password.length >= 8) {
-    console.log ('that password is long enough!')
+// const password = 'p@ss';
+// if (password.length >= 8) {
+    // console.log ('that password is long enough!')
+
+
+
+
+    // Day 2
+// for Loops
+
+// for(let i=0; i<5; i++) {
+// Console.log('in loop:')}
+// console.log('loop finish');
+const names = [ 'shuan', 'mario', 'luigi'];
+for(let i=0; i< names. length; i++){
+    // console.log(name[i]);
+    let html=<div>${names[i]}</div>
+    console.log(html);
 }
