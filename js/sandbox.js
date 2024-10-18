@@ -31,10 +31,24 @@
 // }
 
 // do while loops
-let i=5;
+// let i=5;
 
-do{
-    console.log('val of i is: ', i);
-    i++;
+// do{
+//     console.log('val of i is: ', i);
+//     i++;
 
-} while (i<5);
+// } while (i<5);
+
+
+// else if statements 
+
+const password = 'p@ss';
+
+if(password.length >=12){
+    console.log ('that password is mighty strong');
+
+} else if (password.length >=8){
+    console.log ('that password is long enough!');
+} else {
+    console.log ('password is not long enough');
+}
